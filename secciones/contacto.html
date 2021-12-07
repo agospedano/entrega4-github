@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Aquí podrás hacer tus consultas y encargos a la pyme Piccoli">
+    <meta name="keywords" content="PICCOLI, DECO, AMIGURUMI, BEBES, CONTACTO">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../scss/contacto.css">
+    <script src="https://kit.fontawesome.com/c7805df6ec.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<header>
+    <div class="hleft">Piccoli</div>
+    <div class="hright"></div>
+</header>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../secciones/nosotros.html">Nosotros</a></li>
+            <li><a href="../secciones/bebes.html">Bebés</a></li>
+            <li><a href="../secciones/decohogar.html">Deco Hogar</a></li>
+            <li><a href="../secciones/contacto.html">Contacto</a></li>
+        </ul><br>
+    </nav>
+
+    <div class="container">
+        <h4>Contacto</h4>
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese su nombre completo"
+                    name="nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su e-mail" name="email">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" class="form-control" name="tel" id="tel">
+            </div>
+
+            <div class="container">
+                <h5>Género</h5>
+
+                <form action="/action_page.php">
+                    <div class="form-check">
+                        <label class="form-check-inline" for="check1">
+                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something"
+                                checked>Hombre
+                        </label>
+
+
+                        <label class="form-check-inline" for="check1">
+                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something"
+                                checked>Mujer
+                        </label>
+
+                        <label class="form-check-inline" for="check1">
+                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something"
+                                checked>Otro
+                        </label>
+                    </div>
+                </form>
+                <div class="container">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="comment">Consulta:</label>
+                            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+
+    <footer>
+        <hr>
+        <div>
+            <span>e-mail: piccoli@gmail.com</span><br>
+            <span>Teléfono: +543516141414</span>
+        </div>
+        <div class="redessociales">Redes Sociales</div>
+            <a class="instagram" href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="facebook" href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</body>
+</html>

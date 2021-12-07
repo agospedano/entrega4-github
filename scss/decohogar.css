@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: orange;
+  height: 150px;
+  width: 100%;
+}
+header .hleft {
+  height: 100%;
+  width: 30%;
+  padding: 20px;
+  background-color: black;
+  font-style: italic;
+  color: white;
+  font-family: cursive;
+  font-family: lucida handwriting;
+  text-shadow: 3px 3px 3px orange;
+  font-size: 80px;
+  float: left;
+}
+header .hright {
+  height: 100%;
+  width: 100%;
+  background-image: url(../imagenes/hilos2.jpg);
+  background-size: contain;
+}
+
+body {
+  background-color: black;
+}
+body nav {
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+body nav a {
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin-left: 50px;
+}
+body nav a:hover {
+  color: orange;
+  text-decoration: none;
+}
+body ul {
+  list-style: none;
+}
+body ul li {
+  display: inline-block;
+  position: relative;
+}
+body ul li:hover ul {
+  display: block;
+}
+body #demo {
+  background-color: black;
+  margin-top: 10px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body #demo .carousel-inner {
+  display: flex;
+  padding: 30px;
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+}
+body #demo img {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+}
+body footer {
+  background-color: black;
+  text-align: center;
+}
+body footer div {
+  color: white;
+}
+body footer .redessociales {
+  padding: 5px;
+  color: orange;
+}
+body footer .instagram {
+  color: orange;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 30px;
+}
+body footer .instagram:hover {
+  color: white;
+}
+body footer .facebook {
+  color: orange;
+  text-decoration: none;
+  font-size: 30px;
+}
+body footer .facebook:hover {
+  color: white;
+}
+@media only screen and (min-width: 780px) and (max-width: 1024px) {
+  body body {
+    background-color: blue;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+  body body {
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body body {
+    background-color: white;
+  }
+}/*# sourceMappingURL=decohogar.css.map */
