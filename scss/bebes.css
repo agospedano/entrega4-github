@@ -70,12 +70,12 @@ body #demo .carousel-inner {
   margin: 0 auto;
   height: auto;
   max-width: 100%;
-  justify-content: center;
+  text-align: center;
 }
 body #demo img {
   height: 65vh;
   display: flex;
-  justify-content: center;
+  text-align: center;
 }
 body footer {
   background-color: black;
