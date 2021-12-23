@@ -68,8 +68,8 @@ body #demo .carousel-inner {
   display: flex;
   padding: 30px;
   margin: 0 auto;
-  height: 50%;
-  width: 50%;
+  height: auto;
+  max-width: 100%;
   justify-content: center;
 }
 body #demo img {
