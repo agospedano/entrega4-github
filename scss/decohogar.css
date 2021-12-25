@@ -107,16 +107,16 @@ body footer .facebook:hover {
 }
 @media only screen and (min-width: 780px) and (max-width: 1024px) {
   body body {
-    background-color: blue;
+    background-color: black;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 780px) {
   body body {
-    background-color: red;
+    background-color: black;
   }
 }
 @media only screen and (max-width: 480px) {
   body body {
-    background-color: white;
+    background-color: black;
   }
 }/*# sourceMappingURL=decohogar.css.map */

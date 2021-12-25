@@ -75,32 +75,29 @@ body .nosotros h2 {
   border-color: white;
 }
 body .nosotros .flexcontainer3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
   padding: 25px;
+}
+body .nosotros .flexcontainer3 img {
+  float: left;
+  text-align: center;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10%;
+  border-radius: 50%;
 }
 body .nosotros .flexcontainer3 p {
   color: white;
-  float: right;
-  width: 60%;
+  width: 90%;
   font-family: "Courier New", Courier, monospace;
   font-size: large;
-  text-align: justify;
-  display: flex;
-  flex-direction: right;
-  margin: 0px;
-}
-body .nosotros .flexcontainer3 img {
-  display: block;
-  float: left;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 10%;
-  border-radius: 50%;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
 }
 body footer {
   background-color: black;
@@ -132,16 +129,16 @@ body footer .facebook:hover {
 }
 @media only screen and (min-width: 780px) and (max-width: 1024px) {
   body body {
-    background-color: blue;
+    background-color: black;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 780px) {
   body body {
-    background-color: red;
+    background-color: black;
   }
 }
 @media only screen and (max-width: 480px) {
   body body {
-    background-color: white;
+    background-color: black;
   }
 }/*# sourceMappingURL=nosotros.css.map */
