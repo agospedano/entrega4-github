@@ -70,6 +70,7 @@ body #demo .carousel-inner {
   margin: 0 auto;
   height: auto;
   max-width: 100%;
+  background-color: black;
   justify-content: center;
 }
 body #demo img {
